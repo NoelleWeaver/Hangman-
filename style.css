@@ -1,0 +1,123 @@
+
+*{
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-image: url(./50\ Free\ Trendy\ Neon\ Wallpapers\ For\ iPhone\ \(HD\ Download!\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    text-align: center;
+}
+
+.man{
+    position:absolute;
+    left:7%;
+    z-index: 1000;
+}
+
+.background-container{
+    transform: translate(-50%, -50%);
+    position:absolute;
+    left:50%;
+    top:50%;
+    background-color: rgb(50, 5, 106);
+    width:1000px;
+    padding-bottom:50px;
+    border-radius: 25px;
+}
+
+.over-container{
+    z-index: 100;
+}
+
+.containerGame .header {
+    font-size: 80px;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.figure-container {
+    fill: transparent;
+    stroke: #fff;
+    stroke-width: 4px;
+    stroke-linecap: round;
+}
+
+.figure-part {
+    display: none;
+}
+
+.hidden-letter {
+    display: inline-block;
+    width: 20px;
+    margin: 8px;
+    font-size: 54px;
+    margin-bottom: 5rem;
+}
+
+.guessed-letters {
+    margin-top: 20px;
+    margin-bottom: 2rem;
+    font-weight: 900;
+    font-size:30px;
+}
+
+#remaining-guesses{
+    margin-top:2rem;
+    font-weight: 900;
+    font-size:30px;
+}
+
+/* button stuff */
+button {
+    margin-top: 10px;
+    width: 175px;
+    height: 50px;
+    border-radius: 20px;
+    color: rgb(50, 5, 106);
+}
+
+button:focus-visible {
+    outline-offset: calc(-1 * var(--border));
+    outline: var(--border) solid #000c;
+    clip-path: none;
+    background-size: 0 0;
+}
+
+.popup{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border:5px solid black;
+    padding:80px;
+    z-index: 5000;
+    border-radius: 25px;
+    color: rgb(50, 5, 106);
+    background-color: white;
+    display:none;
+}
+
+.popuptwo{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border:5px solid black;
+    padding:80px;
+    z-index: 5000;
+    border-radius: 25px;
+    color: rgb(50, 5, 106);
+    background-color: white;
+    display:none;
+}
+
+.magic{
+    display:block;
+}
